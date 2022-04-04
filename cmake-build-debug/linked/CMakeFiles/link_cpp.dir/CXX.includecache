@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/Data_Structures/linked/link_cpp.cpp
+link_cpp.h
+I:/Data_Structures/linked/link_cpp.h
+iostream
+-
+
+I:/Data_Structures/linked/link_cpp.h
+iostream
+-
+

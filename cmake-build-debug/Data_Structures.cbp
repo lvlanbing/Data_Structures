@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Data_Structures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\linked\;CMake Files\sort\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 package"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 package_source"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="I:/Data_Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_cpp">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/link_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 link_cpp"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_cpp/fast">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/link_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 link_cpp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_c">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/link_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 link_c"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_c/fast">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/link_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 link_c/fast"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 main"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="I:/Data_Structures/cmake-build-debug/linked/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/linked"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\linked\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick_sort">
+				<Option output="I:/Data_Structures/cmake-build-debug/sort/quick_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 quick_sort"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick_sort/fast">
+				<Option output="I:/Data_Structures/cmake-build-debug/sort/quick_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Data_Structures/cmake-build-debug/sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 quick_sort/fast"/>
+					<CompileFile command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\Data_Structures\cmake-build-debug\sort\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="I:/Data_Structures/linked/link_c.cpp">
+			<Option target="link_c"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/linked/link_cpp.cpp">
+			<Option target="link_cpp"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/linked/link_cpp.h">
+			<Option target="link_cpp"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/linked/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/sort/quick_sort.cpp">
+			<Option target="quick_sort"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/linked/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\linked\"/>
+		</Unit>
+		<Unit filename="I:/Data_Structures/sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sort\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
